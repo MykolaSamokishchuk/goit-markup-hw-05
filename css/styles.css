@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 h1,
@@ -813,6 +813,8 @@ img {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  line-height: 1.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .modal-input:focus {
@@ -911,4 +913,9 @@ img {
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: #404bbf;
+}
+
+/* Додаємо стилі для svg елементів */
+svg {
+  display: inline-block;
 }
